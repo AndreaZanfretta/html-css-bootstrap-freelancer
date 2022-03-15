@@ -5,6 +5,9 @@
 .bg_green{
     background-color: #1ABC9C;
 }
+._green{
+    color: #1ABC9C;
+}
 .bg_red{
     background-color: #BA4B63;
 }
@@ -23,6 +26,17 @@
 .bg_beige{
     background-color: #CCB2A3;
 }
+.bg_footer{
+    background-color: #3A546D;
+}
+.line{
+    display: inline-block;
+    width: 10%;
+    height: 4px;
+    border-radius: 3px;
+    vertical-align: middle;
+    background-color: rgb(255, 255, 255);
+}
 /* Header */
 .nav{
     width: 100%;
@@ -36,23 +50,30 @@ width: 100%;
 #jumbo img{
     width: 50%;
 }
-#jumbo p > span{
-    display: inline-block;
-    width: 10%;
-    height: 4px;
-    border-radius: 3px;
-    vertical-align: middle;
-    background-color: rgb(255, 255, 255);
+#portfolio .line{
+    background-color: black;
 }
-
-#portfolio p > span{
-    display: inline-block;
-    width: 10%;
-    height: 4px;
-    border-radius: 3px;
-    vertical-align: middle;
-    background-color: rgb(0, 0, 0);
+._wrapper{
+    width: 70%;
+    margin: 0 auto;
 }
-/* #portfolio img{
-    width: 100%;
-} */
+.btn{
+    border: 1px solid white;
+    padding: 3px 10px;
+}
+.btn .fa-download{
+    font-size: 20px;
+}
+/* Footer */
+footer{
+    font-size: 20px;
+}
+footer span i{
+    font-size: 14px;
+}
+.circle{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
