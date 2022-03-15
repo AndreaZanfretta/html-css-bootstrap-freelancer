@@ -1,0 +1,58 @@
+/* Generali */
+.bg_blue{
+    background-color: #2C3E50;
+}
+.bg_green{
+    background-color: #1ABC9C;
+}
+.bg_red{
+    background-color: #BA4B63;
+}
+.bg_light_blue{
+    background-color: #1EA4B6;
+}
+.bg_black{
+    background-color: #140F0F;
+}
+.bg_cyan{
+    background-color: #1C83C1;
+}
+.bg_dark_blue{
+    background-color: #0E38B5;
+}
+.bg_beige{
+    background-color: #CCB2A3;
+}
+/* Header */
+.nav{
+    width: 100%;
+    height: 90px;
+}
+/* Main */
+#jumbo{
+width: 100%;
+}
+
+#jumbo img{
+    width: 50%;
+}
+#jumbo p > span{
+    display: inline-block;
+    width: 10%;
+    height: 4px;
+    border-radius: 3px;
+    vertical-align: middle;
+    background-color: rgb(255, 255, 255);
+}
+
+#portfolio p > span{
+    display: inline-block;
+    width: 10%;
+    height: 4px;
+    border-radius: 3px;
+    vertical-align: middle;
+    background-color: rgb(0, 0, 0);
+}
+/* #portfolio img{
+    width: 100%;
+} */
